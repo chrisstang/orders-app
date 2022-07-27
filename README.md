@@ -2,8 +2,7 @@
 
 2 applications written with **NodeJS**. Each of the application have own purpose of existing and responsibility.
 
-**1. Order Application**
-
+### 1. Order Application
 Order App consists of front-end and back-end together with **Next.js** React Framework.
 
 Order App have 4 available states retrieve from the backend:
@@ -19,7 +18,7 @@ Order App API routes can be accessed on [http://localhost:3000/api/*](http://loc
 3. Check order status `/api/check-order`
 4. Retrieve menu items `/api/menu`
 
-**2. Payment Application**
+### 2. Payment Application
 
 Payment App handle request by Order App to verify payment transaction, return either 1 of the states below for order:
 1. Confirmed
